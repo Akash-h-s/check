@@ -1,0 +1,141 @@
+body{
+    height: 100vh;
+    width:100%;
+}
+.main{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    margin-top: 0;
+}
+.logo{
+    height: 6.75rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.h11{
+    height:5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+    position:relative;
+    right: 5rem;
+}
+.zzz{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.search i{
+    position:relative;
+    right:2rem;
+    
+
+}
+.sea{
+    height:30px;
+    width:400px;
+    border-radius:40px;
+    font-size: 20px;
+    position:relative;
+    right:2rem;
+}
+.acc img{
+    height:30px;
+    width:30px;  
+}
+.logout{
+    display:flex;
+    font-size:25px;
+    position: relative;
+    right: 2rem;
+    height:2rem;
+    align-items: center;
+    border:1px solid transparent;
+}
+.logout:hover{
+   
+    border:2px solid black;
+    border-radius:.75rem;
+}
+.res1{
+    height:32rem;
+    width:25rem;
+    margin:1.5rem;
+    border:1px solid black;
+    border-radius: 30px;
+}
+.res{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img1{
+    align-items:center;
+    height:18rem;
+    width:22rem;
+   margin-top:1.75rem;
+   margin-left:1.3rem;
+   border-radius:30px;
+} 
+.book{
+    display:flex;
+    justify-content: center;
+    font-size: 20px;; 
+   
+}
+.book p{
+    margin-left:1rem;
+}
+.book1{
+    border-radius: .75rem; 
+    cursor: pointer;
+    font-size: 30px;
+    background-color:#343A40;
+    color: white;
+    border:1px solid black;
+}
+.dis {
+    align-items: center;
+    text-align: center;
+}
+.min{
+    font-size: 30px;
+    color:red;
+}
+.amt{
+    font-size:30px;
+}
+footer{
+    height:10vh;
+    width:100%;
+  }
+  .foot1{
+    background-color:aliceblue;
+  }
+  .foot{
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  .tagline{
+    align-items: center;
+    text-align: center;
+  }
+  .content{
+    border:2px solid transparent;
+  }
+  .content:hover{
+     border:2px solid black;
+    border-radius: 10px;
+  } 
+ .fa-star {
+    cursor: pointer;
+    font-size: 24px;
+    color:black;
+}
+  .fa-star.orange {
+    color: orange;
+}
