@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    margin-top: 0rem;
+}
+.main p{
+    border:2px solid transparent;
+    margin-top: 0.6rem;
+}
+.main p:hover{
+    border:2px solid black;
+    border-radius:.75rem;
+}
+.logo{
+    height: 6.75rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.dis{
+    margin-right:10rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.l1{
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.login{
+    font-size: 25px;
+    width: 20%;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bcolor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70vh;
+    width:100%;
+    background-color: rgb(224, 250, 224);
+  }
+  
+
+.profile{ 
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.profile h1{
+    margin:12rem 8rem 8rem 8rem;
+}
+.pimg{
+    left: 5rem;
+    margin-top:15px;
+    position: relative;
+}
+.pimg img{
+    height:20rem;
+    border-radius:50%;
+} 
+.h11 {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) infinite, blink-caret .75s step-end infinite;;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100%}
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+  footer{
+    height:10vh;
+    width:100%;
+  }
+  .foot1{
+    background-color:aliceblue;
+  }
+  .foot{
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  .tagline{
+    align-items: center;
+    text-align: center;
+  }
+  .content{
+    border:2px solid transparent;
+  }
+  .content:hover{
+     border:2px solid black;
+    border-radius: 10px;
+  } 
