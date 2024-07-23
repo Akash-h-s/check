@@ -1,0 +1,146 @@
+body{
+    height: 100vh;
+    width:100%;
+}
+.main{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    margin-top: 0;
+}
+.logo{
+    height: 6.75rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.h11{
+    height:5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+    position:relative;
+    right: 5rem;
+}
+.zzz{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.search i{
+    position:relative;
+    right:2rem;
+    
+
+}
+.sea{
+    height:30px;
+    width:400px;
+    border-radius:40px;
+    font-size: 20px;
+    position:relative;
+    right:2rem;
+}
+.acc img{
+    height:30px;
+    width:30px;  
+}
+.logout{
+    display:flex;
+    font-size:25px;
+    position: relative;
+    right: 2rem;
+    height:2rem;
+    align-items: center;
+    border:1px solid transparent;
+}
+.logout:hover{
+   
+    border:2px solid black;
+    border-radius:.75rem;
+}
+.images{
+    background-color: white
+}
+.place1{
+    height:30.2rem;
+    width:30rem;
+    width:auto;
+    border:2px solid transparent;
+    display: flex;
+    margin:0;
+    border-bottom: 1px solid black;
+}
+.eifel{
+    position:relative;
+    left:2rem;
+}
+.foot1{
+    height:150px;
+    background-color:aliceblue;
+  }
+  .foot{
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  .tagline{
+    align-items: center;
+    text-align: center;
+  }
+  .content{
+    border:2px solid transparent;
+  }
+  .content:hover{
+     border:2px solid black;
+    border-radius: 10px;
+  }
+
+  .taj{
+    margin-top:1rem;
+    height:300px;
+    width:400px;
+    border-radius: 50%;
+    padding: 50px;
+}
+.dis{
+    margin-top:100px;
+}
+#ab{
+    font-size: 17px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid transparent;
+    
+}
+#t1{
+   
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+   
+}
+#t1:hover{
+    border:2px solid black;
+    border-radius: 5px;
+}
+.more{
+    font-size:20px;
+}
+.more a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.fa-star {
+    cursor: pointer;
+    font-size: 24px;
+    color:black;
+}
+.fa-star.orange {
+    color: orange;
+}
